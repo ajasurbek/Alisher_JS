@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS lesson-2</title>
+</head>
+<body>
+
+
+<p class="xabar">
+
+</p>
+  <script>
+    // Dollar rate
+var usd = 9433.34;
+var euro = 10354.03;
+
+// COSTS
+var ticket = 500 * usd;
+var hotel = 250 * usd;
+var museum = 120 * euro;
+
+var costs = ticket + hotel + museum;
+
+// FIRST STAGE
+var first = alert(`Alish qancha pulin bor, faqat ochigini ayt.`);
+
+// SECOND STAGE
+var moneyAlisher =parseInt(prompt(`Qancha pulin bor`).trim(), 10);
+
+if (moneyAlisher >= costs) {
+	document.querySelector(`.xabar`).textContent = `quluq`;
+}
+else {
+  document.querySelector(`.xabar`).textContent = `uxladi`;
+}
+  </script>
+</body>
+</html>
