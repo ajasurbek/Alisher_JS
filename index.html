@@ -24,13 +24,13 @@ var museum = 120 * euro;
 var costs = ticket + hotel + museum;
 
 // FIRST STAGE
-var first = alert(`Alish qancha pulin bor, faqat ochigini ayt.`);
+var first = alert(`Alisher aylanmoqchimisan?Unda OK di ezgin.`);
 
 // SECOND STAGE
-var moneyAlisher =parseFloat(prompt(`Pulini somda kirit❓`).trim(), 10);
+var moneyAlisher =parseFloat(prompt(`Aylangani qancha puling bor❓Faqat som da kiritgin!❗❗❗`).trim(), 10);
 
 if (moneyAlisher >= costs) {
-	document.querySelector(`.xabar`).textContent = `Muboro bolsin pulin yetadi🎉🎉🎊!!!`;
+	document.querySelector(`.xabar`).textContent = `Muboro bolsin pulin yetadi🎉🎉🎊❗❗❗`;
 }
 else {
   document.querySelector(`.xabar`).textContent = `Afsuski borolmesan,borish uchun yana ozgina ishlagin(taxminan 3 yil)😂😂😂`;
